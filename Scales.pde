@@ -4,10 +4,10 @@ void setup() {
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-  int z=0;
-  for(int y=25;y<325;y+=70){
-    for(int x=490;x>20;x-=40){
-      scale(x,y,z);
+  int c=0;
+  for(int b=25;b<325;b+=70){
+    for(int a=490;a>20;a-=40){
+      scale(a,b,c);
     }
   }
 }
