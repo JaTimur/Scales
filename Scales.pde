@@ -5,9 +5,11 @@ void setup() {
 }
 void draw() {
   int z=0;
-  for(int y=25;y<325;y+=70)
-    for(int x=490;x>20;x-=40)
+  for(int y=25;y<325;y+=70){
+    for(int x=490;x>20;x-=40){
       scale(x,y,z);
+    }
+  }
 }
 void scale(int x, int y, int z) {
   z=(int)(Math.random()*26);
